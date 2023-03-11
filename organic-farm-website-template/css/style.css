@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #34AD54;
+    --primary: #357EC7;
     --secondary: #FF9933;
     --light: #F6FFF2;
     --dark: #263A4F;
@@ -98,8 +98,9 @@
 }
 
 .bg-hero {
-    background: linear-gradient(rgba(130, 136, 132, 0.2), rgba(214, 228, 218, 0.2)), url(../img/bg1.jpg) top right no-repeat;
+    background: url(../img/bg1.jpg) top right no-repeat;
     background-size: cover;
+    
 }
 
 @media (min-width: 991.98px) {
@@ -111,12 +112,12 @@
 }
 
 .bg-vegetable {
-    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)), url(../img/vegetable.png) bottom right no-repeat;
+    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)) ;
     background-size: contain;
 }
 
 .bg-fruit {
-    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)), url(../img/fruit.png) bottom right no-repeat;
+    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)) ;
     background-size: contain;
 }
 
@@ -135,7 +136,7 @@
 
 .service-item:hover {
     color: var(--light);
-    background: var(--primary) !important;
+    background: var(--secondary) !important;
 }
 
 .service-item:hover i {
@@ -183,7 +184,7 @@
     height: 55%;
     bottom: 0;
     left: 0;
-    background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat;
+    /* background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat; */
     background-size: contain;
     background-color: var(--primary);
     z-index: -1;
@@ -221,7 +222,7 @@
 }
 
 .testimonial-carousel {
-    background: rgba(52, 173, 84, .7);
+    background: rgb(52 123 173 / 70%);
 }
 
 .testimonial-carousel .owl-nav {
@@ -278,12 +279,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    background: linear-gradient(rgba(52, 173, 84, 0), rgba(52, 173, 84, 1));
+    background: linear-gradient(rgba(52, 173, 84, 0), rgba(33, 137, 185, 1));
     z-index: 1;
 }
 
 .bg-footer {
-    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), url(../img/footer.png) center bottom no-repeat;
+    background: linear-gradient(rgba(56, 124, 155, 0.7), rgba(33, 137, 185, 0.7)), url(../img/footer.png) center bottom no-repeat;
     background-size: contain;
 }
 
@@ -291,4 +292,8 @@
     .bg-footer {
         margin-top: 90px !important;
     }
+}
+
+.w-100{
+    opacity: 0.5;
 }
