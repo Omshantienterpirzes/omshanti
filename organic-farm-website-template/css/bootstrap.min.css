@@ -171,7 +171,11 @@ ol,
 ul {
     padding-left: 2rem
 }
-
+.hotFix{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 ol,
 ul,
 dl {
